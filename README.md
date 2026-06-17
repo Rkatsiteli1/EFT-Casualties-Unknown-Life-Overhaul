@@ -12,3 +12,6 @@
 
 添加了17种饮食和两3种工具与材料
 添加了部分合成表
+
+# 下载方式
+https://www.nexusmods.com/scavprototype/mods/182?tab=description
