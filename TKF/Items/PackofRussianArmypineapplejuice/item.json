@@ -1,0 +1,31 @@
+{
+    "id": "PackofRussianArmypineapplejuice",
+    "iscontainer": true,
+    "originPrefab": "nutrientbar",
+    "fullname": "盒装菠萝汁",
+    "description": "“俄罗斯军队”复原菠萝汁。在你在塔科夫求生的时候，很难想象有比它更好的碳水化合物和维生素来源。\n<color=#00ffff>完全食用后：+8能量+30水分/可食用4次</color>",
+    "category": "food",
+    "slotRotation": 0,
+    "usable": true,
+    "usableOnLimb": true,
+    "rotSpeed": 0,
+    "condition":1,  
+    "useAction": {
+        "eat": {
+            "hungerAmount": 2,
+            "weightGain": 0,
+            "drinkAmount": 7.5,
+            "sicknessAmount": 0,
+            "happiness": 0,
+            "conditionConsumption": 0.25,
+            "talker": "eatMediocre",
+            "sound": "eatFlesh"
+        }
+    },
+    "useLimbAction": null,
+    "destroyAtZeroCondition": true,
+    "weight": 1,
+    "value": 0,
+    "decayMinutes": 0,
+    "recognition": 0
+}
