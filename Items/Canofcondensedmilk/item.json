@@ -1,0 +1,30 @@
+{
+    "id": "Canofcondensedmilk",
+    "iscontainer": true,
+    "originPrefab": "nutrientbar",
+    "fullname": "炼乳罐头",
+    "description": "炼乳在俄语中被称作“Sguschyonka”，也就是所谓的稠牛奶。虽然炼乳罐头最早在美国南北战争时期作为联邦军的野战配给大量配发，但其真正流行却是在苏东国家，几乎是过去唯一常见的乳制品。罐装炼乳可储存数十年而不腐坏，依然保留着苏联时代的香甜口感与营养\n<color=#88ff88>“这是加糖炼乳，真的很甜，吃太多了会齁嗓子”</color>\n<color=#00ffff>完全食用后：+75能量-65水分/可食用5次</color>",
+    "category": "food",
+    "slotRotation": 0,
+    "usable": true,
+    "usableOnLimb": true,
+    "rotSpeed": 0,
+    "useAction": {
+        "eat": {
+            "hungerAmount": 15,
+            "weightGain": 0,
+            "drinkAmount": -13,
+            "sicknessAmount": -2,
+            "happiness": 0,
+            "conditionConsumption": 0.3,
+            "talker": "eatGood",
+            "sound": "eatFlesh"
+        }
+    },
+    "useLimbAction": null,
+    "destroyAtZeroCondition": true,
+    "weight": 0.44,
+    "value": 0,
+    "decayMinutes": 0,
+    "recognition": 0
+}

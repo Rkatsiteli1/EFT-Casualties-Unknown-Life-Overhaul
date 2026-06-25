@@ -1,0 +1,32 @@
+﻿{
+    "INT": 4,
+    "amount": 3,
+    "category": "Food",
+    "destroyItem" : true,
+    "items": [
+        {
+            "specificId": "Aquapepswaterpurificationtablets",
+            "minimumCondition": 0.5
+        },
+                {
+            "specificId": "Bottleofwater",
+            "minimumCondition": 0.1
+        },
+                {
+            "specificId": "Bottleofwater",
+            "minimumCondition": 0.1
+        },
+                {
+            "specificId": "Bottleofwater",
+            "minimumCondition": 0.1
+        },
+                {
+            "specificId": "Bottleofwater",
+            "minimumCondition": 0.1
+        },
+                {
+            "specificId": "Bottleofwater",
+            "minimumCondition": 0.1
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": "MRErationpack",
+    "iscontainer": true,
+    "originPrefab": "nutrientbar",
+    "fullname": "MRE",
+    "description": "个人即食口粮 (MRE) 是为美国陆军量身打造的单兵作战口粮。MRE 包装采用了特殊设计，在极端天气和恶劣环境下依然可以长时间储存，意味着使用者无需担心储藏条件。内有不少独立包装的食物，即使身处战场也能享用美食。\n<color=#88ff88>“所以你为什么还是只吃里面的饼干？”</color>\n<color=#00ffff>完全食用后：70能量/可食用4次</color>",
+    "category": "food",
+    "slotRotation": 0,
+    "usable": true,
+    "usableOnLimb": true,
+    "rotSpeed": 0,
+    "condition":1,  
+    "useAction": {
+        "eat": {
+            "hungerAmount": 17.5,
+            "weightGain": 0,
+            "drinkAmount": 0,
+            "sicknessAmount": 0,
+            "happiness": 0,
+            "conditionConsumption": 0.25,
+            "talker": "eatGood",
+            "sound": "eatFlesh"
+        }
+    },
+    "useLimbAction": null,
+    "destroyAtZeroCondition": true,
+    "weight": 1,
+    "value": 0,
+    "decayMinutes": 0,
+    "recognition": 0
+}
