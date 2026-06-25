@@ -1,0 +1,31 @@
+{
+    "id": "PackofVitajuice",
+    "iscontainer": true,
+    "originPrefab": "nutrientbar",
+    "fullname": "Vita果汁",
+    "description": "由多种水果混合而成的Vita果汁，味道可能会有点奇怪，但肯定对健康有好处。\n<color=#00ffff>完全食用后：+8能量+28水分+4免疫/可食用4次</color>",
+    "category": "food",
+    "slotRotation": 0,
+    "usable": true,
+    "usableOnLimb": true,
+    "rotSpeed": 0,
+    "condition":1,  
+    "useAction": {
+        "eat": {
+            "hungerAmount": 2,
+            "weightGain": 0,
+            "drinkAmount": 7,
+            "sicknessAmount": -1,
+            "happiness": 0,
+            "conditionConsumption": 0.25,
+            "talker": "eatMediocre",
+            "sound": "eatFlesh"
+        }
+    },
+    "useLimbAction": null,
+    "destroyAtZeroCondition": true,
+    "weight": 1,
+    "value": 0,
+    "decayMinutes": 0,
+    "recognition": 0
+}

@@ -1,0 +1,31 @@
+{
+    "id": "PackofGrandjuice",
+    "iscontainer": true,
+    "originPrefab": "nutrientbar",
+    "fullname": "西柚汁",
+    "description": "Grand 牌西柚汁，适合那些生活中缺少苦涩的人。\n<color=#00ffff>完全食用后：+6能量+30水分</color>",
+    "category": "food",
+    "slotRotation": 0,
+    "usable": true,
+    "usableOnLimb": true,
+    "rotSpeed": 0,
+    "condition":1,  
+    "useAction": {
+        "eat": {
+            "hungerAmount": 1.5,
+            "weightGain": 0,
+            "drinkAmount": 7.5,
+            "sicknessAmount": 0,
+            "happiness": 0,
+            "conditionConsumption": 0.25,
+            "talker": "eatMediocre",
+            "sound": "eatFlesh"
+        }
+    },
+    "useLimbAction": null,
+    "destroyAtZeroCondition": true,
+    "weight": 1,
+    "value": 0,
+    "decayMinutes": 0,
+    "recognition": 0
+}

@@ -1,0 +1,25 @@
+{
+    "id": "BoozeGenerator",
+    "iscontainer": true,
+    "originPrefab": "nutrientbar",
+    "fullname": "酿酒套装",
+    "description": "一套完整的酿酒套装，从最基础的发酵，排气，到蒸馏，结晶浓缩，纯化等等需要的工具一有尽有\n<color=#88ff88>“你可能会问，为什么酿酒不需要时间等待，我是不会告诉你这里面安装了加速火把的（笑）”</color>",
+    "category": "materials",
+    "slotRotation": 0,
+    "usable": false,
+    "usableOnLimb": false,
+    "rotSpeed": 0,
+    "condition":1,  
+    "useLimbAction": null,
+    "destroyAtZeroCondition": true,
+    "weight": 3,
+    "value": 0,
+    "decayMinutes": 0,
+    "recognition": 0,
+    "qualities": [
+            {
+        "id": "酿酒套装",  
+        "amount": 50
+        }
+                ]
+}

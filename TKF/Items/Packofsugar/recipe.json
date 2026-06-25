@@ -1,0 +1,16 @@
+﻿{
+    "INT": 5,
+    "amount": 1,
+    "category": "Food",
+    "bool destroyItem" : true,
+    "items": [
+        {
+            "specificId": "chocolatebar",
+            "minimumCondition": 0.1
+        },
+                {
+            "specificId": "chocolatebar",
+            "minimumCondition": 0.1
+        }
+    ]
+}
